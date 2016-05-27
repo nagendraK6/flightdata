@@ -6,6 +6,10 @@
  <?php 
    echo '<p>Hello World</p>'; 
    error_log("hello, this is a test!");
+   error_log($_GET);
+   error_log($_POST);
+   
+   /*
  if( $_GET["name"] || $_GET["email"] || $_GET["contact"])
 {
 echo "Welcome: ". $_GET['name']. "<br />";
@@ -19,7 +23,7 @@ echo "Your Mobile No. is: ". $_GET["contact"];
 echo "Welcome: ". $_POST['name']. "<br />";
 echo "Your Email is: ". $_POST["email"]. "<br />";
 echo "Your Mobile No. is: ". $_POST["contact"];
-}
+} */
 ?>
  </body>
 </html
