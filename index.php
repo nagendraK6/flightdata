@@ -4,9 +4,8 @@
  </head>
  <body>
  <?php 
-   echo '<p>Hello World</p>'; 
-   error_log("hello, this is a test!");
-   error_log(var_dump($_REQUEST));
+   $foo = file_get_contents("php://input");
+   var_dump(json_decode($foo, true));
    
    /*
  if( $_GET["name"] || $_GET["email"] || $_GET["contact"])
