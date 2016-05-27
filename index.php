@@ -4,10 +4,7 @@
  </head>
  <body>
  <?php 
-   $foo = file_get_contents("php://input");
-   error_log(var_dump(json_decode($foo, true)));
-   
-   
+   print_r($_POST)
    /*
  if( $_GET["name"] || $_GET["email"] || $_GET["contact"])
 {
