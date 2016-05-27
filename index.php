@@ -5,6 +5,7 @@
  <body>
  <?php 
    echo '<p>Hello World</p>'; 
+   error_log("hello, this is a test!");
  if( $_GET["name"] || $_GET["email"] || $_GET["contact"])
 {
 echo "Welcome: ". $_GET['name']. "<br />";
