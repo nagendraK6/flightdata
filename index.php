@@ -5,7 +5,8 @@
  <body>
  <?php 
    $foo = file_get_contents("php://input");
-   var_dump(json_decode($foo, true));
+   error_log(var_dump(json_decode($foo, true)));
+   
    
    /*
  if( $_GET["name"] || $_GET["email"] || $_GET["contact"])
