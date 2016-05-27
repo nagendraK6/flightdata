@@ -6,7 +6,7 @@
  <?php 
 
      foreach ($_POST as $key => $value)
-       error_log($key.'='.$value.);
+       error_log($key.'='.$value);
    /*
  if( $_GET["name"] || $_GET["email"] || $_GET["contact"])
 {
