@@ -6,8 +6,7 @@
  <?php 
    echo '<p>Hello World</p>'; 
    error_log("hello, this is a test!");
-   error_log($_GET);
-   error_log($_POST);
+var_dump($_REQUEST);
    
    /*
  if( $_GET["name"] || $_GET["email"] || $_GET["contact"])
